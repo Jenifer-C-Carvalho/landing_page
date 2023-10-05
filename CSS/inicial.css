@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto:wght@300&display=swap');
+
+:root {
+    --cor-fundo: #ffc0cb;
+    --cor-barradenavegacao: rgb(255, 0, 0);
+    --cor-texto: #fff;
+    --fonte-barra: 'Lora', serif;
+    --fonte-titulo: 'Nunito Sans', sans-serif;
+    --fonte-paragrafo: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+nav {
+    background-color: var(--cor-barradenavegacao);
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    padding: 10px;
+}
+
+#promocao {
+    font-family: var(--fonte-barra);
+    color: var(--cor-texto);
+    text-align: center;
+    font-size: 30px;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#container_card{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: var(--cor-barradenavegacao);
+    color: var(--cor-texto);
+}
+
